@@ -17,22 +17,26 @@ crime back. It does not have the option of saying "there was no crime."
 We give the user the ability to specify the day/time in which they're interested.
 For each hour since the first crime date in our dataset:
   * If there were crimes committed, there will be one or more rows of data with:
-      * IUCR code (fully describing the type/description of crime)
-      * severity of the crime (this is a value created from the IUCR).
+      * risk rating of the crime.
+      The severity of the crime is a value created by considering which crimes
+      are more severe for a user who is visiting the city, or one who wants to
+      rent long-term.
+      
+      
       This severity is normalized with the population of the tract that the
       crime was committed in.
-      One other possibility that was considered was to normalize the severity
-      for each crime type/description. Since there are ~9000 of those combinations
-      of crime type/description, it will be too many columns per crime. Also, the
-      severity is already taking into account the crime type/description.
+      
+      
+      risk rating = sum(severity per crime) / population in that tract
+      Same risk rating per crime for that tract.
+
+      After the model is created, user will give us time ranges. 
+      We should change risk ratings for that time range
+      by dividing by number of hours. If user selected 3 hours and 2 days of the week,
+      we divide risk rating by (3 * 2).      
   * If there were no crimes committed during that hour,
     we say "no crime was committed" by specifying:
-    * IUCR code of 0
-    * severity of 0
-
-
-We will predict the severity of crimes and then find the risk rating using:
-  * risk rating = SUM(severity) / SUM(population)
+    * risk rating of 0
 ### Predicting risk rating of tract
 For each hour since the earliest data in our dataset:
   * Group all crimes in each tract
