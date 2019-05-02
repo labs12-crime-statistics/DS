@@ -1,7 +1,8 @@
 """Contains models for DB."""
 
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy import Column, BigInteger, Integer, String, DateTime, ForeignKey, Float
+from sqlalchemy import Column, BigInteger, Integer, String, DateTime, \
+    ForeignKey, Float, LargeBinary
 from sqlalchemy.orm import relationship
 from geoalchemy2 import Geometry
 
@@ -30,6 +31,7 @@ class Blocks(BASE):
     cityid        = Column(BigInteger, ForeignKey('city.id'), nullable=False)
     shape         = Column(Geometry(geometry_type='MULTIPOLYGON'), nullable=False)
     population    = Column(Integer, nullable=False)
+    prediction    = Column(LargeBinary, nullable=True)
     city          = relationship("City", back_populates="blocks")
     incidents     = relationship("Incident", back_populates="block")
 
