@@ -14,10 +14,10 @@ SafeSpot provides predictions of crime within a city for a full year from today.
 
 
 
-<img src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png" alt="Scikit-Learn" width="160" height="58">
-<img src="https://s3.amazonaws.com/keras.io/img/keras-logo-2018-large-1200.png" alt="Keras" width="160" height="58">
-<img src="https://pandas.pydata.org/_static/pandas_logo.png" alt="Pandas" width="160" height="58">
-<img src="https://www.numpy.org/_static/numpy_logo.png" alt="Numpy" width="160" height="58">
+<img href="https://scikit-learn.org" src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png" alt="Scikit-Learn" width="160" height="58">
+<img href="https://keras.io" src="https://s3.amazonaws.com/keras.io/img/keras-logo-2018-large-1200.png" alt="Keras" width="160" height="58">
+<img href="https://pandas.pydata.org" src="https://pandas.pydata.org/_static/pandas_logo.png" alt="Pandas" width="160" height="58">
+<img href="https://www.numpy.org" src="https://www.numpy.org/_static/numpy_logo.png" alt="Numpy" width="160" height="58">
 
 
 ![Deployed App](https://safespot.netlify.com/map)
