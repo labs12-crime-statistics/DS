@@ -48,7 +48,7 @@ Our training set is the last two years of data. Our testing set is data for the 
 
 ## Tech Stack
 
-<a href="https://www.python.org/">Python</a><a href="https://pandas.pydata.org/">Pandas</a><a href="https://scikit-learn.org/stable/">Scikit-Learn</a><a href="https://www.numpy.org/">Numpy</a><a href="https://keras.io/">Keras</a>
+<a href="https://www.python.org/">Python</a>&#160;&#160;<a href="https://pandas.pydata.org/">Pandas</a>&#160;&#160;<a href="https://scikit-learn.org/stable/">Scikit-Learn</a>&#160;&#160;<a href="https://www.numpy.org/">Numpy</a>&#160;&#160;<a href="https://keras.io/">Keras</a>
 
 ## Predictions
 
