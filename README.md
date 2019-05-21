@@ -22,7 +22,7 @@ SafeSpot provides predictions of crime within a city for a full year from today.
 
 
 
-![Deployed App](https://safespot.netlify.com/map)
+<a href="https://safespot.netlify.com/map" alt="Deployed App">Deployed App</a>
 
 
 [Chicago predictions](https://github.com/labs12-crime-statistics/DS/blob/samir-gadkari/Chicago_predictions_combo.ipynb)
@@ -48,7 +48,7 @@ Our training set is the last two years of data. Our testing set is data for the 
 
 ## Tech Stack
 
-Python, Scikit-Learn, Pandas, Numpy, Keras
+<a href="https://www.python.org/">Python</a><a href="https://pandas.pydata.org/">Pandas</a><a href="https://scikit-learn.org/stable/">Scikit-Learn</a><a href="https://www.numpy.org/">Numpy</a><a href="https://keras.io/">Keras</a>
 
 ## Predictions
 
