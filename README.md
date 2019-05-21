@@ -10,25 +10,31 @@
 
 SafeSpot provides predictions of crime within a city for a full year from today. You can see crime trends for the last 18 years. You can also select a block of the city on the map and see crime trends for that block. Predictions per block are also shown.
 
-[![Anaconda-Server Badge](https://anaconda.org/conda-forge/scikit-learn/badges/latest_release_date.svg)](https://anaconda.org/conda-forge/scikit-learn)
-[![Anaconda-Server Badge](https://anaconda.org/conda-forge/scikit-learn/badges/license.svg)](https://anaconda.org/conda-forge/scikit-learn)
-[![Anaconda-Server Badge](https://anaconda.org/conda-forge/scikit-learn/badges/downloads.svg)](https://anaconda.org/conda-forge/scikit-learn)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
 
-![Scikit-Learn](https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png)
-![Keras](https://s3.amazonaws.com/keras.io/img/keras-logo-2018-large-1200.png)
-![Pandas](https://pandas.pydata.org/_static/pandas_logo.png)
-![Numpy](https://www.numpy.org/_static/numpy_logo.png)
+![Scikit-Learn](https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png =160x58)
+![Keras](https://s3.amazonaws.com/keras.io/img/keras-logo-2018-large-1200.png =160x58)
+![Pandas](https://pandas.pydata.org/_static/pandas_logo.png =160x58)
+![Numpy](https://www.numpy.org/_static/numpy_logo.png =160x58)
 
 
 ![Deployed App](https://safespot.netlify.com/map)
 
 
 [Chicago predictions](https://github.com/labs12-crime-statistics/DS/blob/samir-gadkari/Chicago_predictions_combo.ipynb)
+
+
 [Prophet Model](https://github.com/labs12-crime-statistics/DS/blob/master/Chicago_Prophet_AW.ipynb)
+
+
 [ARIMA Model](https://github.com/labs12-crime-statistics/DS/blob/master/Chicago_ARIMA.ipynb)
+
+
 [Other Models](https://github.com/labs12-crime-statistics/DS/blob/master/Chicago_AW1.ipynb)
+
+
 [Processing raw data](https://github.com/labs12-crime-statistics/DS/blob/master/Chicago.ipynb)
 
 
